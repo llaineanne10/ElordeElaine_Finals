@@ -1,0 +1,149 @@
+body {
+    background: rgba(192, 234, 255, 1);
+    margin: 0;
+    color: rgba(0, 0, 0, 1);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.header {
+    width: 100%;
+    background: rgba(150, 203, 230, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.left_section,
+.right_section {
+    display: flex;
+    align-items: center;
+}
+
+.left_section {
+    margin-left: 1rem;
+}
+
+.right_section {
+    margin-right: 1rem;
+}
+
+.upper_section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.middle_section {
+    margin-top: 3rem;
+    width: 25rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(127, 127, 127, 0.2);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.Welcome {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.learning {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 400;
+    font-size: 2.2rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.lower_section {
+    padding-top: 5rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}
+
+@media (max-width: 1024px) {
+    .header {
+        font-size: 1.8rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .left_section,
+    .right_section {
+        margin: 0.5rem 0;
+    }
+
+    .middle_section {
+        width: 80%;
+        font-size: 2rem;
+    }
+
+    .Welcome {
+        font-size: 3rem;
+    }
+
+    .learning {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        font-size: 1.5rem;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0.5rem;
+    }
+
+    .left_section,
+    .right_section {
+        margin: 0.3rem 0;
+    }
+
+    .middle_section {
+        width: 90%;
+        height: auto;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .Welcome {
+        font-size: 2.5rem;
+    }
+
+    .learning {
+        font-size: 1.5rem;
+    }
+
+    .lower_section {
+        padding-top: 3rem;
+    }
+}

@@ -1,0 +1,184 @@
+.body_2 {
+    background: #7EA3E6;
+    margin: 0;
+    color: rgba(0, 0, 0, 1);
+    width: 70%;
+    border-radius: 50px;
+    height: auto;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.header_sign_in {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.sign {
+    font-family: 'Protest Strike', sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.x {
+    margin-right: 5rem;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.sign_in_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.txt_info {
+    font-family: 'Protest Strike', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+}
+
+.sign_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60rem;
+    height: 5rem;
+    background: #D9D9D9;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    margin-left: 5rem;
+    border-radius: 25px;
+    margin-top: 1rem;
+}
+
+.last {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.last_position {
+    margin-left: 25rem;
+}
+
+.sign_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 5rem;
+    background: #3D3D3D;
+    font-family: 'Protest Strike', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+
+.img_sign {
+    position: absolute;
+    margin-right: 20rem;
+}
+
+@media (max-width: 600px) {
+    .body_2 {
+        width: 95%;
+        border-radius: 25px;
+        padding: 1.5rem;
+    }
+
+    .sign {
+        font-size: 2.5rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .x {
+        margin-right: 1rem;
+        font-size: 2rem;
+    }
+
+    .txt_info {
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+
+    .sign_div {
+        width: 90%;
+        margin-left: 0;
+        font-size: 1.8rem;
+        height: 4rem;
+    }
+
+    .last {
+        padding-top: 3rem;
+    }
+
+    .last_position {
+        margin-left: 0;
+    }
+
+    .sign_wrap {
+        width: 80%;
+        font-size: 2rem;
+        height: 4rem;
+    }
+
+    .img_sign {
+        position: static;
+        margin: 1rem auto;
+        display: block;
+    }
+}
+
+@media (max-width: 1024px) {
+    .body_2 {
+        width: 90%;
+    }
+
+    .sign {
+        font-size: 3rem;
+    }
+
+    .x {
+        font-size: 2.5rem;
+        margin-right: 2rem;
+    }
+
+    .txt_info {
+        font-size: 2.5rem;
+    }
+
+    .sign_div {
+        width: 80%;
+        margin-left: 2rem;
+        font-size: 2.2rem;
+        height: 4.5rem;
+    }
+
+    .last_position {
+        margin-left: 0;
+    }
+
+    .sign_wrap {
+        font-size: 2.5rem;
+        width: 60%;
+    }
+
+    .img_sign {
+        margin-right: 10rem;
+    }
+}

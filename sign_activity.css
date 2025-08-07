@@ -1,0 +1,224 @@
+.last_wrap_3 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.ready_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+.back_wrap {
+  display: flex;
+  justify-content: center;
+  width: 10rem;
+  background: rgba(127, 127, 127, 0.2);
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 2.2rem;
+  margin-right: 2rem;
+  border-radius: 10px;
+}
+
+.question_wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-family: Podkova;
+  font-weight: 400;
+  font-size: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.choose_answer {
+  margin: 0;
+  padding-left: 6rem;
+}
+
+.wrap_question {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 5rem;
+}
+
+.head {
+  display: flex;
+  gap: 2rem;
+}
+
+.circle {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00ceff;
+  font-family: Protest Strike;
+  font-weight: 400;
+  font-size: 4rem;
+  border-radius: 100%;
+}
+
+.questionaire {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 5rem;
+  margin-left: 2rem;
+  flex-wrap: wrap;
+}
+
+.lower_part {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: flex-end;
+  margin-left: 3.5rem;
+}
+
+.div1 {
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+}
+
+.div2 {
+  width: 1.5rem;
+  background: #96cbe6;
+  height: 1.5rem;
+  margin-bottom: 0.8rem;
+  margin-left: 1rem;
+}
+
+.choices {
+  margin: 0;
+  font-family: Podkova;
+  font-size: 2rem;
+}
+
+.b {
+  margin: 0;
+  font-family: Podkova;
+  font-size: 3rem;
+}
+
+.emoji_finish_wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10rem;
+  flex-wrap: wrap;
+}
+
+.emo_txt {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.finish {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Protest Strike;
+  font-size: 4rem;
+  margin: 0;
+  background: #6aadcf;
+  width: 20rem;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .ready_img,
+  .back_wrap {
+    font-size: 1.8rem;
+  }
+
+  .question_wrap {
+    font-size: 2rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .wrap_question {
+    margin-left: 2rem;
+  }
+
+  .questionaire {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1rem;
+  }
+
+  .lower_part {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .finish {
+    width: 100%;
+    font-size: 3rem;
+  }
+
+  .emoji_finish_wrap {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .ready_img,
+  .back_wrap {
+    font-size: 1.6rem;
+  }
+
+  .question_wrap {
+    font-size: 1.8rem;
+  }
+
+  .wrap_question {
+    margin-left: 1rem;
+  }
+
+  .choose_answer {
+    padding-left: 2rem;
+  }
+
+  .circle {
+    width: 4rem;
+    height: 4rem;
+    font-size: 3rem;
+  }
+
+  .choices {
+    font-size: 1.6rem;
+  }
+
+  .b {
+    font-size: 2.4rem;
+  }
+
+  .finish {
+    font-size: 2.8rem;
+    width: 100%;
+  }
+
+  .emoji_finish_wrap {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+}
